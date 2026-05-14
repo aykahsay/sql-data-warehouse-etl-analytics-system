@@ -123,6 +123,16 @@ This system simulates an enterprise-grade data platform capable of:
 - Power BI (optional visualization)
 
 ---
+## Skills Demonstarted
+
+This project demonstrates skills:
+
+✔ Batch + Real-Time Data Processing  
+✔ Data Warehouse Design (Star Schema)  
+✔ ETL Orchestration and Automation  
+✔ Historical Data Tracking (SCD Type 2)  
+✔ Scalable Analytics Architecture Design  
+
 
 ## 🚀 Future Improvements
 - Integrate Power BI dashboards
