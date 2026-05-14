@@ -1,6 +1,14 @@
 # 📊 SQL Data Warehouse & ETL Analytics System
 
-An end-to-end **data engineering and analytics system** that transforms raw ERP and CRM data into a structured, analytics-ready **data warehouse** using SQL Server. The project implements a full **ETL pipeline, medallion architecture, and star schema modeling** to enable scalable business intelligence and decision-making.
+An end-to-end **data engineering and analytics system** that transforms raw ERP and CRM data into a structured, analytics-ready **data warehouse** using SQL Server. The project implements
+
+- ⚙️ **Automated ETL Pipelines** using Python / SSIS for scheduled and scalable data ingestion
+- 🕒 **Slowly Changing Dimensions (SCD Type 2)** to track historical changes in customer and product data over time
+- 🔄 **Real-Time Data Pipeline Integration** enabling near real-time analytics from source systems to the data warehouse
+- 🏗️ Designed with modular architecture to support scalability and enterprise-level data processing
+
+These enhancements simulate real-world data engineering systems used in modern analytics platforms.
+a full **ETL pipeline, medallion architecture, and star schema modeling** to enable scalable business intelligence and decision-making.
 
 ---
 
@@ -22,12 +30,6 @@ The system follows a **Bronze → Silver → Gold architecture**:
 ### 🥉 Bronze Layer (Raw Data Ingestion)
 - Raw ERP and CRM data ingested from CSV files
 - Stored in original format for traceability
-
-📌 Architecture Overview:
-<p align="center">
-  <img src="YOUR-BRONZE-SILVER-GOLD-IMAGE-LINK" width="700"/>
-</p>
-
 ---
 
 ### 🥈 Silver Layer (Cleaned & Standardized Data)
@@ -35,23 +37,14 @@ The system follows a **Bronze → Silver → Gold architecture**:
 - Standardization of formats (dates, currency)
 - Integration of ERP + CRM datasets via CustomerID
 
-📌 ETL Transformation Pipeline:
-<p align="center">
-  <img src="YOUR-ETL-PIPELINE-IMAGE-LINK" width="700"/>
-</p>
-
 ---
 
 ### 🥇 Gold Layer (Business-Ready Data)
 - Star schema implementation
 - Fact and dimension tables optimized for analytics
+**📌 Architecture Overview:**
+<img width="883" height="769" alt="image" src="https://github.com/user-attachments/assets/f06ccd68-6fb2-4595-986e-2df83319b22e" />
 
-📌 Star Schema Data Model:
-<p align="center">
-  <img src="YOUR-STAR-SCHEMA-IMAGE-LINK" width="700"/>
-</p>
-
----
 
 ## ⚙️ ETL Pipeline
 
@@ -67,7 +60,8 @@ The system follows a **Bronze → Silver → Gold architecture**:
 ### 🔹 Load
 - Data loaded into staging tables
 - Final loading into fact and dimension tables
-
+📌 ETL Transformation Pipeline:
+<img width="1256" height="752" alt="image" src="https://github.com/user-attachments/assets/b931be1b-4e02-4300-a2d0-8f218194134c" />
 ---
 
 ## 🧱 Data Modeling
@@ -78,6 +72,8 @@ Star Schema design:
 - `DimCustomer`
 - `DimProduct`
 - `DimDate`
+📌 Star Schema Data Model:
+<img width="1252" height="775" alt="image" src="https://github.com/user-attachments/assets/f49be9ff-b1c5-4f3a-9363-9ea695070ca8" />
 
 This enables:
 - Fast analytical queries
@@ -129,9 +125,7 @@ This system enables organizations to:
 
 ## 🚀 Future Improvements
 
-- Automate ETL using Python / SSIS
-- Implement Slowly Changing Dimensions (SCD Type 2)
-- Add real-time data pipelines
+-
 - Integrate Power BI dashboards
 
 ---
