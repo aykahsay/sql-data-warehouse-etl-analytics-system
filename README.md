@@ -62,7 +62,7 @@ The system follows a **Bronze → Silver → Gold architecture**:
 - Final loading into fact and dimension tables
 📌 ETL Transformation Pipeline:
 <img width="1256" height="752" alt="image" src="https://github.com/user-attachments/assets/b931be1b-4e02-4300-a2d0-8f218194134c" />
----
+
 
 ## 🧱 Data Modeling
 
@@ -124,10 +124,7 @@ This system enables organizations to:
 ---
 
 ## 🚀 Future Improvements
-
--
 - Integrate Power BI dashboards
-
 ---
 
 ## 📄 License
