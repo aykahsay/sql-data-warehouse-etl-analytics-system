@@ -42,6 +42,7 @@ The system follows a **Bronze → Silver → Gold architecture**:
 ### 🥇 Gold Layer (Business-Ready Data)
 - Star schema implementation
 - Fact and dimension tables optimized for analytics
+  
 **📌 Architecture Overview:**
 <img width="883" height="769" alt="image" src="https://github.com/user-attachments/assets/f06ccd68-6fb2-4595-986e-2df83319b22e" />
 
