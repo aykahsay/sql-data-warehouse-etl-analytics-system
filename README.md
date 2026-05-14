@@ -1,4 +1,4 @@
-# 📊 SQL Data Warehouse & Analytics Project
+# 📊 sql-data-warehouse-etl-analytics-system
 
 A complete end-to-end project to design, build, and utilize a modern **data warehouse** using **SQL Server**. This project integrates **ETL processes**, **data modeling**, and **SQL-based analytics** to support data-driven decision-making.
 
